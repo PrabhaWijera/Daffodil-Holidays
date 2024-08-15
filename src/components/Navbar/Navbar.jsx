@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/MasterLogo.png";
 import { NavLink, Link } from "react-router-dom";
 import { FaCaretDown } from "react-icons/fa";
 import ResponsiveMenu from "./ResponsiveMenu";
@@ -15,7 +15,7 @@ export const NavbarLinks = [
     link: "/about",
   },
   {
-    name: "Blogs",
+    name: "Itinerary",
     link: "/blogs",
   },
   {
@@ -23,22 +23,23 @@ export const NavbarLinks = [
     link: "/best-places",
   },
 
+
 ];
 
-const DropdownLinks = [
-  {
-    name: "Travel Guide",
-    link: "/#services",
-  },
-  {
-    name: "Top Brands",
-    link: "/#mobile_brands",
-  },
-  {
-    name: "Contact",
-    link: "/#location",
-  },
-];
+// const DropdownLinks = [
+//   {
+//     name: "Our Services",
+//     link: "/#services",
+//   },
+//   {
+//     name: "Top Brands",
+//     link: "/#mobile_brands",
+//   },
+//   {
+//     name: "Location",
+//     link: "/#location",
+//   },
+// ];
 
 const Navbar = ({ handleOrderPopup }) => {
   const [showMenu, setShowMenu] = useState(false);
@@ -57,24 +58,24 @@ const Navbar = ({ handleOrderPopup }) => {
             </div>
           </div>
         </div>
-        <div className="container py-3 sm:py-0">
+        <div className="container py-3 sm:py-0 w-[100vw]">
           <div className="flex justify-around items-center">
-            <div className="flex items-center gap-4  font-bold text-2xl">
+            <div className="flex items-center gap-4  font-bold text-2xl  h-30 ">
               <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
-                <img src={Logo} alt="" className="h-16" />
+                <img src={Logo} alt="" className="h-30 w-20" />
               </Link>
               {/* <span>TCJ Tourism</span> */}
             </div>
             <div className="hidden md:block">
-              <ul className="flex items-center gap-6 ">
+              <ul className="flex items-center gap-8 ">
                 <li className="py-4">
                   <NavLink to="/" activeClassName="active">
                     Home
                   </NavLink>
                 </li>
                 <li className="py-4">
-                  <NavLink to="/blogs" activeClassName="active">
-                    Blogs
+                  <NavLink to="/about" activeClassName="active">
+                     About Us
                   </NavLink>
                 </li>
                 <li className="py-4">
@@ -83,11 +84,21 @@ const Navbar = ({ handleOrderPopup }) => {
                   </NavLink>
                 </li>
                 <li className="py-4">
-                  <NavLink to="/about" activeClassName="active">
-                    About
+                  <NavLink to="/blogs" activeClassName="active">
+                  Itinerary
                   </NavLink>
                 </li>
-                <li className="group relative cursor-pointer">
+                <li className="py-4">
+                  <NavLink to="/blogs" activeClassName="active">
+                  Travel Guide
+                  </NavLink>
+                </li>
+                <li className="py-4">
+                  <NavLink to="/blogs" activeClassName="active">
+                  Contact
+                  </NavLink>
+                </li>
+                {/* <li className="group relative cursor-pointer">
                   <a
                     href="/#home"
                     className="flex h-[72px] items-center gap-[2px]"
@@ -111,7 +122,7 @@ const Navbar = ({ handleOrderPopup }) => {
                       ))}
                     </ul>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="flex items-center gap-4">

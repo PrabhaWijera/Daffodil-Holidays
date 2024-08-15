@@ -29,15 +29,16 @@ const Home = () => {
             <source src={NatureVid} type="video/mp4" />
           </video> */}
           <img src={homeBg} alt=""  className="absolute right-0 top-0 h-[700px] w-full object-cover z-[-1]" />
-          
+          {/* <Hero /> */}
         </div>
-        {/* <Hero /> */}
+       
         <Places handleOrderPopup={handleOrderPopup} />
         <BannerPic img={BannerImg} />
-        <BlogsComp />
+        {/* <BlogsComp /> */}
         <Banner />
-        <BannerPic img={Banner2} />
         <Testimonial />
+        <BannerPic img={Banner2} />
+      
         <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
       </div>
     </>
