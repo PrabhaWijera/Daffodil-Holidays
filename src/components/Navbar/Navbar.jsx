@@ -60,7 +60,7 @@ const Navbar = ({ handleOrderPopup }) => {
         </div>
         <div className="container py-3 sm:py-0 w-[100vw]">
           <div className="flex justify-around items-center">
-            <div className="flex items-center gap-4  font-bold text-2xl  h-30 ">
+            <div className="flex items-center  ">
               <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
                 <img src={Logo} alt="" className="h-30 w-20" />
               </Link>
