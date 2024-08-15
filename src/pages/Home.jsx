@@ -28,7 +28,7 @@ const Home = () => {
           >
             <source src={NatureVid} type="video/mp4" />
           </video> */}
-          <img src={homeBg} alt=""  className="absolute right-0 top-0 h-[700px] w-full object-cover z-[-1]" />
+          <img src={homeBg} alt=""  className="absolute right-0 top-0 h-[700px]display-cover" />
           {/* <Hero /> */}
         </div>
        
