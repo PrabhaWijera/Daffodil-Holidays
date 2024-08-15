@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       <div>
-        <div className="h-[700px] relative">
+        <div className="h-[570px] relative">
           {/* <video
             autoPlay
             loop
