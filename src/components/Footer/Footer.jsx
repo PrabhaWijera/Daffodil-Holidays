@@ -1,5 +1,5 @@
 import React from "react";
-import FooterLogo from "../../assets/logo.png";
+import FooterLogo from "../../assets/MasterLogo.png";
 import {
   FaFacebook,
   FaInstagram,
@@ -16,17 +16,20 @@ const FooterLinks = [
     link: "/",
   },
   {
-    title: "About",
+    title: "About Us",
     link: "/about",
   },
   {
-    title: "Best Places",
+    title: "Itinerary",
     link: "/best-places",
   },
   {
-    title: "Blogs",
-    link: "/blogs",
+    title: "Travel Guide",
+    link: "/best-places",
   },
+  {
+    title: "Contact"
+  }
 ];
 
 const Footer = () => {
@@ -45,7 +48,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 py-5 bg-white/80 backdrop-blur-sm rounded-t-xl">
             <div className="py-8 px-4">
               <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
-                <img src={FooterLogo} alt="" className="max-h-[60px]" />
+                <img src={FooterLogo} alt="" className="max-h-[120px]" />
                 {/* TravelloGo */}
               </h1>
               <p className="text-sm">
@@ -56,11 +59,11 @@ const Footer = () => {
               <br />
               <div className="flex items-center gap-3 ">
                 <FaLocationArrow />
-                <p>Noida, Uttar Pradesh</p>
+                <p>Daffodil Holidays (PVT),Sri lanka</p>
               </div>
               <div className="flex items-center gap-3 mt-3">
                 <FaMobileAlt />
-                <p>+91 123456789</p>
+                <p>+971 54 753 8700</p>
               </div>
               {/* social handles */}
               <div>
@@ -81,7 +84,7 @@ const Footer = () => {
               <div>
                 <div className="py-8 px-4">
                   <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
-                    Important Links
+                    Quick Links
                   </h1>
                   <ul className="flex flex-col gap-3">
                     {FooterLinks.map((link) => (
@@ -101,7 +104,7 @@ const Footer = () => {
               <div>
                 <div className="py-8 px-4">
                   <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
-                    Important Links
+                    Customer Service
                   </h1>
                   <ul className="flex flex-col gap-3">
                     {FooterLinks.map((link) => (
@@ -142,7 +145,7 @@ const Footer = () => {
           </div>
           <div>
             <div className="text-center py-5 border-t-2 border-gray-300/50 bg-primary text-white">
-              @copyright 2024 All rights reserved || Made with ❤️ by Dilshad
+              @copyright 2024 All rights reserved || Made by TheNextGen
             </div>
           </div>
         </div>
