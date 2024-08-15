@@ -11,7 +11,7 @@ export const NavbarLinks = [
     link: "/",
   },
   {
-    name: "About",
+    name: "About Us",
     link: "/about",
   },
   {
@@ -22,11 +22,12 @@ export const NavbarLinks = [
     name: "Best Places",
     link: "/best-places",
   },
+
 ];
 
 const DropdownLinks = [
   {
-    name: "Our Services",
+    name: "Travel Guide",
     link: "/#services",
   },
   {
@@ -34,7 +35,7 @@ const DropdownLinks = [
     link: "/#mobile_brands",
   },
   {
-    name: "Location",
+    name: "Contact",
     link: "/#location",
   },
 ];
@@ -57,7 +58,7 @@ const Navbar = ({ handleOrderPopup }) => {
           </div>
         </div>
         <div className="container py-3 sm:py-0">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-around items-center">
             <div className="flex items-center gap-4  font-bold text-2xl">
               <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
                 <img src={Logo} alt="" className="h-16" />
@@ -91,7 +92,7 @@ const Navbar = ({ handleOrderPopup }) => {
                     href="/#home"
                     className="flex h-[72px] items-center gap-[2px]"
                   >
-                    Quick Links{" "}
+                    Itinerary{" "}
                     <span>
                       <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
                     </span>
@@ -115,7 +116,7 @@ const Navbar = ({ handleOrderPopup }) => {
             </div>
             <div className="flex items-center gap-4">
               <button
-                className="bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full"
+                className="bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-lg"
                 onClick={() => {
                   handleOrderPopup();
                 }}
