@@ -13,14 +13,14 @@ const PlaceCard = ({
   return (
     <>
       <div
-        className="shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white cursor-pointer"
+        className="shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white cursor-pointer rounded-lg"
         onClick={handleOrderPopup}
       >
         <div className="overflow-hidden">
           <img
             src={img}
             alt="No image"
-            className="mx-auto h-[220px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
+            className="rounded-tl-[15px] rounded-tr-[15px] mx-auto h-[220px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
           />
         </div>
 
@@ -36,7 +36,9 @@ const PlaceCard = ({
               <p>{type}</p>
             </div>
             <div>
-              <p className="text-2xl font-bold">${price}</p>
+              <button class="bg-readMoreBtnbg text-readMoreBtntxt px-4 py-2 rounded w-[7rem] h-10">
+                Read More
+              </button>
             </div>
           </div>
         </div>

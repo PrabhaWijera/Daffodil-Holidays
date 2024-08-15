@@ -6,9 +6,11 @@ export default {
     extend: {
       colors: {
         // primary: "#00c3c7",
-        primary: "#0287a8",
-        secondary: "#00c3c7",
+        primary: "#23939A",
+        secondary: "#203577",
         dark: "#ffcf22",
+        readMoreBtnbg:'#23939A',
+        readMoreBtntxt:'#F9F6F6'
       },
       container: {
         center: true,

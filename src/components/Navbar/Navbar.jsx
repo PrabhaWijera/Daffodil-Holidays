@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/MasterLogo.png";
 import { NavLink, Link } from "react-router-dom";
 import { FaCaretDown } from "react-icons/fa";
 import ResponsiveMenu from "./ResponsiveMenu";
@@ -11,33 +11,35 @@ export const NavbarLinks = [
     link: "/",
   },
   {
-    name: "About",
+    name: "About Us",
     link: "/about",
   },
   {
-    name: "Blogs",
+    name: "Itinerary",
     link: "/blogs",
   },
   {
     name: "Best Places",
     link: "/best-places",
   },
+
+
 ];
 
-const DropdownLinks = [
-  {
-    name: "Our Services",
-    link: "/#services",
-  },
-  {
-    name: "Top Brands",
-    link: "/#mobile_brands",
-  },
-  {
-    name: "Location",
-    link: "/#location",
-  },
-];
+// const DropdownLinks = [
+//   {
+//     name: "Our Services",
+//     link: "/#services",
+//   },
+//   {
+//     name: "Top Brands",
+//     link: "/#mobile_brands",
+//   },
+//   {
+//     name: "Location",
+//     link: "/#location",
+//   },
+// ];
 
 const Navbar = ({ handleOrderPopup }) => {
   const [showMenu, setShowMenu] = useState(false);
@@ -56,24 +58,24 @@ const Navbar = ({ handleOrderPopup }) => {
             </div>
           </div>
         </div>
-        <div className="container py-3 sm:py-0">
-          <div className="flex justify-between items-center">
-            <div className="flex items-center gap-4  font-bold text-2xl">
+        <div className="container py-3 sm:py-0 w-[100vw]">
+          <div className="flex justify-around items-center">
+            <div className="flex items-center  ">
               <Link to={"/"} onClick={() => window.scrollTo(0, 0)}>
-                <img src={Logo} alt="" className="h-16" />
+                <img src={Logo} alt="" className="h-30 w-20" />
               </Link>
               {/* <span>TCJ Tourism</span> */}
             </div>
             <div className="hidden md:block">
-              <ul className="flex items-center gap-6 ">
+              <ul className="flex items-center gap-8 ">
                 <li className="py-4">
                   <NavLink to="/" activeClassName="active">
                     Home
                   </NavLink>
                 </li>
                 <li className="py-4">
-                  <NavLink to="/blogs" activeClassName="active">
-                    Blogs
+                  <NavLink to="/about" activeClassName="active">
+                     About Us
                   </NavLink>
                 </li>
                 <li className="py-4">
@@ -82,16 +84,26 @@ const Navbar = ({ handleOrderPopup }) => {
                   </NavLink>
                 </li>
                 <li className="py-4">
-                  <NavLink to="/about" activeClassName="active">
-                    About
+                  <NavLink to="/blogs" activeClassName="active">
+                  Itinerary
                   </NavLink>
                 </li>
-                <li className="group relative cursor-pointer">
+                <li className="py-4">
+                  <NavLink to="/blogs" activeClassName="active">
+                  Travel Guide
+                  </NavLink>
+                </li>
+                <li className="py-4">
+                  <NavLink to="/blogs" activeClassName="active">
+                  Contact
+                  </NavLink>
+                </li>
+                {/* <li className="group relative cursor-pointer">
                   <a
                     href="/#home"
                     className="flex h-[72px] items-center gap-[2px]"
                   >
-                    Quick Links{" "}
+                    Itinerary{" "}
                     <span>
                       <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
                     </span>
@@ -110,12 +122,12 @@ const Navbar = ({ handleOrderPopup }) => {
                       ))}
                     </ul>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="flex items-center gap-4">
               <button
-                className="bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full"
+                className="bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-lg"
                 onClick={() => {
                   handleOrderPopup();
                 }}
