@@ -8,7 +8,7 @@ const About = () => {
       <div className="container pt-14">
         <div className="py-10">
           <h1 className=" my-8 border-l-8 border-primary/50 py-2 pl-2 text-3xl font-bold">
-            About us
+            About us <br/> <br/>
           </h1>
           <p>
             <h1 className=" text-2xl font-bold">Welcome to Daffodil Holidays</h1> <br/>
