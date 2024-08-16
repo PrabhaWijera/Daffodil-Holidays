@@ -1,11 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import './navbar.css'
-import {MdModeOfTravel} from "react-icons/md";
+
 import {IoIosCloseCircle} from "react-icons/io";
 import {TbGridDots} from "react-icons/tb";
 import {NavLink} from "react-router-dom";
-
+import bg from "../../assets/WhatsApp_Image_2024-08-13_at_14.07.06_0e7351fa_1-removebg-preview.png"
 export const NavbarLinks = [
   {
     name: "Home",
@@ -42,7 +42,8 @@ const Navbar = () => {
         <header className="header flex">
           <div className="logoDiv">
             <a href="/" className="logo flex">
-              <MdModeOfTravel className="icon"/><h1>safarnama</h1>
+              {/*<MdModeOfTravel className="icon"/><h1>safarnama</h1>*/}
+              <img src={bg} alt="" className=""/>
             </a>
           </div>
 
@@ -52,21 +53,28 @@ const Navbar = () => {
                 <NavLink to='/' className="navLink">Home</NavLink>
               </li>
               <li className="navItem">
-                <NavLink to='/' className="navLink">Package</NavLink>
+                <NavLink to='/about' className="navLink">About Us</NavLink>
               </li>
               <li className="navItem">
-                <NavLink to='' className="navLink">About</NavLink>
+                <NavLink to='/best-places' className="navLink">Best Places</NavLink>
               </li>
               <li className="navItem">
-                <NavLink to='' className="navLink">Contact</NavLink>
+                <NavLink to='/blogs' className="navLink">Itinerary</NavLink>
               </li>
-              <button className="btn bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full">
-                <a href="/">Book now!</a>
+              <li className="navItem">
+                <NavLink to='guide' className="navLink">Travel Guide</NavLink>
+              </li>
+              <li className="navItem">
+                <NavLink to='/contact' className="navLink">Contact</NavLink>
+              </li>
+              <button
+                  className="btn bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full">
+                <a href="/regform">Book now!</a>
               </button>
             </ul>
 
             <div onClick={hideNav} className="closeNavbar">
-              <IoIosCloseCircle className="icon" />
+              <IoIosCloseCircle className="icon"/>
             </div>
           </div>
           <div onClick={showNav} className="toggleNavbar icon">
