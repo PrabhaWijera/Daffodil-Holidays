@@ -54,7 +54,7 @@ const Navbar = ({ handleOrderPopup }) => {
           <div className="container py-[2px] sm:block hidden">
             <div className="flex items-center justify-between">
               <p className="text-sm">20% off on next booking</p>
-              <p>Contact Us  +94 76 2150787</p>
+              <p>Contact Us  +971 54 753 8700</p>
             </div>
           </div>
         </div>
