@@ -38,7 +38,7 @@ const Navbar = () => {
     setActive('navBar')
   }
   return(
-      <section className="navbarSection">
+      <section className="navbarSection pb-[8rem]">
         <header className="header flex">
           <div className="logoDiv">
             <a href="/" className="logo flex">
@@ -47,8 +47,8 @@ const Navbar = () => {
             </a>
           </div>
 
-          <div className={active}>
-            <ul className="navLists flex">
+          <div className={active} >
+            <ul className="navLists flex ">
               <li className="navItem">
                 <NavLink to='/' className="navLink">Home</NavLink>
               </li>
@@ -59,7 +59,7 @@ const Navbar = () => {
                 <NavLink to='/best-places' className="navLink">Best Places</NavLink>
               </li>
               <li className="navItem">
-                <NavLink to='/blogs' className="navLink">Itinerary</NavLink>
+                <NavLink to='/itinery' className="navLink">Itinerary</NavLink>
               </li>
               <li className="navItem">
                 <NavLink to='guide' className="navLink">Travel Guide</NavLink>
@@ -77,7 +77,7 @@ const Navbar = () => {
               <IoIosCloseCircle className="icon"/>
             </div>
           </div>
-          <div onClick={showNav} className="toggleNavbar icon">
+          <div onClick={showNav} className="toggleNavbar icon ">
             <TbGridDots className="icon" />
           </div>
 
