@@ -1,20 +1,25 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { IoLocationSharp } from "react-icons/io5";
 
 const PlaceCard = ({
+                     // eslint-disable-next-line react/prop-types
   img,
+                     // eslint-disable-next-line react/prop-types
   title,
+                     // eslint-disable-next-line react/prop-types
   location,
+                     // eslint-disable-next-line react/prop-types
   description,
-  price,
+// eslint-disable-next-line react/prop-types
   type,
-  handleOrderPopup,
+                     // eslint-disable-next-line react/prop-types
+
 }) => {
   return (
     <>
       <div
         className="shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white cursor-pointer rounded-lg"
-        onClick={handleOrderPopup}
       >
         <div className="overflow-hidden">
           <img
@@ -36,7 +41,7 @@ const PlaceCard = ({
               <p>{type}</p>
             </div>
             <div>
-              <button class="bg-readMoreBtnbg text-readMoreBtntxt px-4 py-2 rounded w-[7rem] h-10">
+              <button className="bg-readMoreBtnbg text-readMoreBtntxt px-4 py-2 rounded w-[7rem] h-10">
                 Read More
               </button>
             </div>
