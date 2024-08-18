@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { IoLocationSharp } from "react-icons/io5";
+import {useNavigate} from "react-router-dom";
 
 const PlaceCard = ({
                      // eslint-disable-next-line react/prop-types
@@ -14,8 +15,16 @@ const PlaceCard = ({
 // eslint-disable-next-line react/prop-types
   type,
                      // eslint-disable-next-line react/prop-types
-
+ id
 }) => {
+
+
+  const navigate = useNavigate();
+
+  const handleNavigate =async () => {
+    navigate(`/best-places/${id}`);
+  };
+
   return (
     <>
       <div
@@ -41,7 +50,7 @@ const PlaceCard = ({
               <p>{type}</p>
             </div>
             <div>
-              <button className="bg-readMoreBtnbg text-readMoreBtntxt px-4 py-2 rounded w-[7rem] h-10">
+              <button onClick={handleNavigate} className="bg-readMoreBtnbg text-readMoreBtntxt px-4 py-2 rounded w-[7rem] h-10">
                 Read More
               </button>
             </div>
