@@ -11,6 +11,8 @@ import BlogsDetails from "./pages/BlogsDetails";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ContactForm from "./components/ContactForm/ContactForm.jsx";
+import PlaceDetail from "./components/Places/PlaceDetail.jsx";
+import TravelCustomerForm from "./components/Form/TravelCustomerForm.jsx";
 
 const App = () => {
   React.useEffect(() => {
@@ -30,8 +32,10 @@ const App = () => {
             <Route index element={<Home />} />
             <Route path="blogs" element={<Blogs />} />
             <Route path="blogs/:id" element={<BlogsDetails />} />
+            <Route path="best-places/:id" element={<PlaceDetail />} />
             <Route path="best-places" element={<PlacesRoute />} />
             <Route path="contact" element={<ContactForm/>} />
+            <Route path="/booking" element={<TravelCustomerForm/>} />
             <Route path="about" element={<About />} />
             <Route path="*" element={<NoPage />} />
           </Route>

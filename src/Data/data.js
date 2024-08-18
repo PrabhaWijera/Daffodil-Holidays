@@ -17,18 +17,21 @@ import Img15 from "../assets/places/Pasikudah.jpg";
 const data = {
   AncientCities: [
     {
+      id:'Polonnaruwa',
       img: Img1,
       title: "Polonnaruwa",
       location: "Sri Lanka",
       description: "The first capital of Sri Lanka, home to ancient stupas, monasteries, and the sacred Bodhi tree.see more..."
     },
     {
+      id:'Anuradhapura',
       img: Img2,
       title: "Anuradhapura",
       location: "Sri Lanka",
       description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
     },
     {
+      id:'Sigiriya',
       img: Img3,
       title: "Sigiriya",
       location: "Sri Lanka",
@@ -37,18 +40,21 @@ const data = {
   ],
   HillCountry: [
     {
+      id:'Kandy',
       img: Img4,
       title: "Kandy",
       location: "Sri Lanka",
       description: "The first capital of Sri Lanka, home to ancient stupas, monasteries, and the sacred Bodhi tree.see more..."
     },
     {
+      id:'Nuwara',
       img: Img5,
       title: "Nuwara Eliya",
       location: "Sri Lanka",
       description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
     },
     {
+      id:'Ella',
       img: Img6,
       title: "Ella",
       location: "Sri Lanka",
@@ -57,18 +63,21 @@ const data = {
   ],
   Westcoast: [
     {
+      id:'Negombo',
       img: Img7,
       title: "Negombo",
       location: "Sri Lanka",
       description: "The first capital of Sri Lanka, home to ancient stupas, monasteries, and the sacred Bodhi tree.see more..."
     },
     {
+      id:'Colombo',
       img: Img8,
       title: "Colombo",
       location: "Sri Lanka",
       description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
     },
     {
+      id:'Kalpitiya',
       img: Img9,
       title: "Kalpitiya",
       location: "Sri Lanka",
@@ -77,18 +86,21 @@ const data = {
   ],
   DownSouth: [
     {
+      id:'Galle',
       img: Img10,
       title: "Galle",
       location: "Sri Lanka",
       description: "The first capital of Sri Lanka, home to ancient stupas, monasteries, and the sacred Bodhi tree.see more..."
     },
     {
+      id:'Mirissa',
       img: Img11,
       title: "Mirissa",
       location: "Sri Lanka",
       description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
     },
     {
+      id:'Tangalle',
       img: Img12,
       title: "Tangalle",
       location: "Sri Lanka",
@@ -97,18 +109,21 @@ const data = {
   ],
   EastCoast: [
     {
+      id:'Trincomalee',
       img: Img13,
       title: "Trincomalee",
       location: "Sri Lanka",
       description: "The first capital of Sri Lanka, home to ancient stupas, monasteries, and the sacred Bodhi tree.see more..."
     },
     {
+      id:'Arugam',
       img: Img14,
       title: "Arugam Bay",
       location: "Sri Lanka",
       description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
     },
     {
+      id:'Pasikudah',
       img: Img15,
       title: "Pasikudah",
       location: "Sri Lanka",
