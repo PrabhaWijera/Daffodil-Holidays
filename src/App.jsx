@@ -13,6 +13,8 @@ import "aos/dist/aos.css";
 import ContactForm from "./components/ContactForm/ContactForm.jsx";
 import PlaceDetail from "./components/Places/PlaceDetail.jsx";
 import TravelCustomerForm from "./components/Form/TravelCustomerForm.jsx";
+import PopularDestination from "./components/Places/PopularDestination.jsx";
+import ExclusivePackages from "./components/Packages/ExclusivePackages.jsx";
 
 const App = () => {
   React.useEffect(() => {
@@ -34,6 +36,8 @@ const App = () => {
             <Route path="blogs/:id" element={<BlogsDetails />} />
             <Route path="best-places/:id" element={<PlaceDetail />} />
             <Route path="best-places" element={<PlacesRoute />} />
+            <Route path="itinery" element={<PopularDestination />} />
+            <Route path="package-details" element={<ExclusivePackages />} />
             <Route path="contact" element={<ContactForm/>} />
             <Route path="/booking" element={<TravelCustomerForm/>} />
             <Route path="about" element={<About />} />

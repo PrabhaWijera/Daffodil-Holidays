@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import BlogsComp from "../components/Blogs/BlogsComp";
 import Location from "../components/Location/Location";
@@ -16,7 +17,7 @@ const About = () => {
           <div className="container mx-auto p-4">
               <TopImageContainer images={images}/>
           </div>
-          <div className="container pt-14">
+          <div className="container">
 
               <div className="py-10">
                   <h1 className=" my-8 border-l-8 border-primary/50 py-2 pl-2 text-3xl font-bold">
