@@ -7,7 +7,7 @@ import data from "../../Data/data.js"
 
 
 // eslint-disable-next-line react/prop-types
-const Places = ({ handleOrderPopup }) => {
+const Places = () => {
   return (
       <>
         <div className="dark:bg-gray-900 dark:text-white bg-gray-50 py-10">
@@ -21,7 +21,6 @@ const Places = ({ handleOrderPopup }) => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
               {data.AncientCities.map((item, index) => (
                   <PlaceCard
-                      handleOrderPopup={handleOrderPopup}
                       key={index}
                       {...item}
                   />
@@ -34,7 +33,6 @@ const Places = ({ handleOrderPopup }) => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
               {data.HillCountry.map((item, index) => (
                   <PlaceCard
-                      handleOrderPopup={handleOrderPopup}
                       key={index}
                       {...item}
                   />
@@ -48,7 +46,6 @@ const Places = ({ handleOrderPopup }) => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
               {data.Westcoast.map((item, index) => (
                   <PlaceCard
-                      handleOrderPopup={handleOrderPopup}
                       key={index}
                       {...item}
                   />
@@ -62,7 +59,6 @@ const Places = ({ handleOrderPopup }) => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
               {data.DownSouth.map((item, index) => (
                   <PlaceCard
-                      handleOrderPopup={handleOrderPopup}
                       key={index}
                       {...item}
                   />
@@ -76,7 +72,6 @@ const Places = ({ handleOrderPopup }) => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
               {data.EastCoast.map((item, index) => (
                   <PlaceCard
-                      handleOrderPopup={handleOrderPopup}
                       key={index}
                       {...item}
                   />
