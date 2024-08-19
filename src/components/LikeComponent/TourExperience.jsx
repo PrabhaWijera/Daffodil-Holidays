@@ -28,7 +28,7 @@ const TourExperience = () => {
                         className="flex items-center justify-center mt-2 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
                     >
                         <FaPhoneAlt className="mr-2" />
-                        +94 77 123 1234
+                        +94 76 2150787
                     </a>
                 </div>
             </div>
