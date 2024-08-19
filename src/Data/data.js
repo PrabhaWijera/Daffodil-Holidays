@@ -21,21 +21,21 @@ const data = {
       img: Img1,
       title: "Polonnaruwa",
       location: "Sri Lanka",
-      description: "The first capital of Sri Lanka, home to ancient stupas, monasteries, and the sacred Bodhi tree.see more..."
+      description: " Medieval capital, majestic ruins, and rich cultural history."
     },
     {
-      id:'Anuradhapura',
+      id: 'Anuradhapura',
       img: Img2,
       title: "Anuradhapura",
       location: "Sri Lanka",
-      description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
+      description: " Ancient capital, sacred stupas, and rich Buddhist heritage.."
     },
     {
       id:'Sigiriya',
       img: Img3,
       title: "Sigiriya",
       location: "Sri Lanka",
-      description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
+      description: " Ancient rock fortress, royal palace, and stunning frescoes.."
     }
   ],
   HillCountry: [
@@ -44,21 +44,21 @@ const data = {
       img: Img4,
       title: "Kandy",
       location: "Sri Lanka",
-      description: "The first capital of Sri Lanka, home to ancient stupas, monasteries, and the sacred Bodhi tree.see more..."
+      description: " Last kingdom, sacred Temple, and vibrant cultural heritage.."
     },
     {
       id:'Nuwara',
       img: Img5,
       title: "Nuwara Eliya",
       location: "Sri Lanka",
-      description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
+      description: " Colonial hill station, cool climate, and tea heritage.."
     },
     {
       id:'Ella',
       img: Img6,
       title: "Ella",
       location: "Sri Lanka",
-      description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
+      description: " Scenic town, ancient temples, colonial heritage, and stunning landscapes.."
     }
   ],
   Westcoast: [
@@ -67,21 +67,21 @@ const data = {
       img: Img7,
       title: "Negombo",
       location: "Sri Lanka",
-      description: "The first capital of Sri Lanka, home to ancient stupas, monasteries, and the sacred Bodhi tree.see more..."
+      description: " Historic port city with colonial heritage and vibrant fishing culture.."
     },
     {
       id:'Colombo',
       img: Img8,
       title: "Colombo",
       location: "Sri Lanka",
-      description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
+      description: " Sri Lanka's bustling capital with rich colonial history and culture.."
     },
     {
       id:'Kalpitiya',
       img: Img9,
       title: "Kalpitiya",
       location: "Sri Lanka",
-      description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
+      description: "Coastal town with Dutch colonial history and stunning natural beauty.."
     }
   ],
   DownSouth: [
@@ -90,21 +90,21 @@ const data = {
       img: Img10,
       title: "Galle",
       location: "Sri Lanka",
-      description: "The first capital of Sri Lanka, home to ancient stupas, monasteries, and the sacred Bodhi tree.see more..."
+      description: " Historic port city with Dutch fort and colonial architectural heritage.."
     },
     {
       id:'Mirissa',
       img: Img11,
       title: "Mirissa",
       location: "Sri Lanka",
-      description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
+      description: "Coastal town with historic port, vibrant fishing culture, and beauty.."
     },
     {
       id:'Tangalle',
       img: Img12,
       title: "Tangalle",
       location: "Sri Lanka",
-      description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
+      description: " Historic port town with colonial influences and beautiful coastal scenery.."
     }
   ],
   EastCoast: [
@@ -113,21 +113,22 @@ const data = {
       img: Img13,
       title: "Trincomalee",
       location: "Sri Lanka",
-      description: "The first capital of Sri Lanka, home to ancient stupas, monasteries, and the sacred Bodhi tree.see more..."
+      description: " Historic harbor city with ancient temples and strategic naval significance.."
     },
     {
       id:'Arugam',
       img: Img14,
       title: "Arugam Bay",
       location: "Sri Lanka",
-      description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
+      description: "Historic fishing village known for its stunning beaches and waves.."
     },
     {
       id:'Pasikudah',
       img: Img15,
       title: "Pasikudah",
       location: "Sri Lanka",
-      description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra."
+      description: " Historic coastal town with pristine beaches and rich maritime heritage.."
+
     }
   ]
 };
