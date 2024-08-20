@@ -28,9 +28,12 @@ function ContactForm() {
             .send(serviceID, templateID, templateParams, publicKey)
             .then(
                 () => {
+                    alert("Sent..")
                     console.log("Email sent successfully!");
+
                 },
                 (error) => {
+                    alert("Something went wrong.Check your connection and try again")
                     console.error('Failed to send email:', error.text);
                 }
             );

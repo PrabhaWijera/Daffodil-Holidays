@@ -38,7 +38,7 @@ const Navbar = () => {
     setActive('navBar')
   }
   return(
-      <section className="navbarSection pb-[8rem]">
+      <section className="navbarSection pb-[2rem]">
         <header className="header flex">
           <div className="logoDiv">
             <a href="/" className="logo flex">
