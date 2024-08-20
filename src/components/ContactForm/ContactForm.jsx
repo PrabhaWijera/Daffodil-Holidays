@@ -17,9 +17,9 @@ function ContactForm() {
         const publicKey = 'tiAAq4sK8otmMLjWo';
 
         const templateParams = {
+            myname:"daffodil Holidays",
             form_name: name,
             form_email: email,
-            to_name: "web Wizard",
             subject: subject, // Correctly passing the subject to the template
             message: message,
         };
@@ -50,17 +50,17 @@ function ContactForm() {
                 </div>
 
                 <form onSubmit={sendEmail} className="ContactForm">
-                    <label>Name</label>
-                    <input type="text" onChange={(e) => setName(e.target.value)} value={name} />
+                    {/*<label>Name</label>*/}
+                    <input placeholder="Enter your name :" type="text" onChange={(e) => setName(e.target.value)} value={name} />
 
-                    <label>Email</label>
-                    <input type="email" onChange={(e) => setEmail(e.target.value)} value={email} />
+                    {/*<label>Email</label>*/}
+                    <input placeholder="Enter your E-mail :" type="email" onChange={(e) => setEmail(e.target.value)} value={email} />
 
-                    <label>Subject</label>
-                    <input type="text" onChange={(e) => setSubject(e.target.value)} value={subject} /> {/* Fixed input type */}
+                    {/*<label>Subject</label>*/}
+                    <input placeholder="Subject" type="text" onChange={(e) => setSubject(e.target.value)} value={subject} /> {/* Fixed input type */}
 
-                    <label>Message</label>
-                    <textarea cols="30" rows="2" value={message} onChange={(e) => setMessage(e.target.value)} />
+                    {/*<label>Message</label>*/}
+                    <textarea placeholder="Type your Message here" cols="30" rows="2" value={message} onChange={(e) => setMessage(e.target.value)} />
 
                     <button
                         type="submit"
