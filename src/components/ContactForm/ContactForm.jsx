@@ -7,6 +7,7 @@ import {refresh} from "ionicons/icons";
 function ContactForm() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
+    const [mobile,setMobile]=useState('');
     const [subject, setSubject] = useState(''); // Corrected the state name to lowercase
     const [message, setMessage] = useState(''); // Corrected the state name
 
@@ -21,6 +22,7 @@ function ContactForm() {
             myname:"daffodil Holidays",
             form_name: name,
             form_email: email,
+            mobile:mobile,
             subject: subject, // Correctly passing the subject to the template
             message: message,
         };
@@ -61,6 +63,7 @@ function ContactForm() {
                     {/*<label>Email</label>*/}
                     <input placeholder="Enter your E-mail :" type="email" onChange={(e) => setEmail(e.target.value)} value={email} />
 
+                    <input placeholder="Enter your contact Number" type="number" onChange={(e)=>setMobile(e.target.value)}value={mobile}/>
                     {/*<label>Subject</label>*/}
                     <input placeholder="Subject" type="text" onChange={(e) => setSubject(e.target.value)} value={subject} /> {/* Fixed input type */}
 
