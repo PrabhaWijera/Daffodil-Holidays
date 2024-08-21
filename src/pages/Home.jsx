@@ -16,7 +16,7 @@ const Home = () => {
   return (
       <>
         <div>
-          <div className="h-[700px] relative">
+          <div className="h-[700px] relative bg-cover">
             {/*<video*/}
             {/*    autoPlay*/}
             {/*    loop*/}

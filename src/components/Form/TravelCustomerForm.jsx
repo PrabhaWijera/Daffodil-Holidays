@@ -46,7 +46,7 @@ const TravelCustomerForm = () => {
             // Simulate a delay
             await new Promise(resolve => setTimeout(resolve, 2000)); // 2 seconds delay
 
-            const response = await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams, 'YOUR_USER_ID');
+            const response = await emailjs.send('service_657ab6c', 'template_x5x12hs', templateParams, 'tiAAq4sK8otmMLjWo');
             console.log('Email sent successfully:', response);
         } catch (error) {
             console.error('Failed to send email:', error);
@@ -180,7 +180,7 @@ const TravelCustomerForm = () => {
                     type="submit"
                     className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
-                    Submit
+                    Conform Your Booking
                 </button>
             </form>
         </div>
