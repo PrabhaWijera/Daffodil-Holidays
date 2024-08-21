@@ -52,9 +52,7 @@ const Footer = () => {
                 {/* TravelloGo */}
               </h1>
               <p className="text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                facere ab hic accusamus omnis dolor voluptatibus illo, tempore
-                eum tenetur.
+                Explore Sri Lanka’s diverse landscapes and vibrant culture. From pristine beaches and ancient temples to lush highlands and bustling cities, discover your perfect getaway with our curated travel guides and local insights. Your adventure awaits!
               </p>
               <br />
               <div className="flex items-center gap-3 ">

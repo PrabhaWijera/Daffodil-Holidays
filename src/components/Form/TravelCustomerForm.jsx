@@ -47,8 +47,10 @@ const TravelCustomerForm = () => {
             await new Promise(resolve => setTimeout(resolve, 2000)); // 2 seconds delay
 
             const response = await emailjs.send('service_657ab6c', 'template_x5x12hs', templateParams, 'tiAAq4sK8otmMLjWo');
+           alert("Booking Conformed")
             console.log('Email sent successfully:', response);
         } catch (error) {
+            alert("Check your connection and try again.")
             console.error('Failed to send email:', error);
         }
     };

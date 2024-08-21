@@ -11,21 +11,21 @@ const destinations = [
         image: './assets/images/popular-1.jpg',
         country: 'Italy',
         title: 'San Miguel',
-        description: 'Fusce hic augue velit wisi ips quibusdam pariatur, iusto.',
+        description: 'Italy, renowned for its rich history, art, and cuisine, offers breathtaking landscapes from Rome’s ancient ruins to Tuscany’s rolling hills. Enjoy world-class wine, stunning architecture, and vibrant culture across the country.',
     },
     {
         id: 2,
         image: './assets/images/popular-2.jpg',
         country: 'Dubai',
         title: 'Burj Khalifa',
-        description: 'Fusce hic augue velit wisi ips quibusdam pariatur, iusto.',
+        description: 'Dubai, a dazzling city in the UAE, blends modern skyscrapers, luxury shopping, and rich culture. Explore iconic landmarks like the Burj Khalifa, pristine beaches, and vibrant nightlife in this global metropolis.',
     },
     {
         id: 3,
         image: './assets/images/popular-3.jpg',
         country: 'Japan',
         title: 'Kyoto Temple',
-        description: 'Fusce hic augue velit wisi ips quibusdam pariatur, iusto.',
+        description: 'Japan, a blend of ancient tradition and cutting-edge modernity, offers stunning temples, bustling cities, and serene landscapes. Experience vibrant culture, exquisite cuisine, and breathtaking natural beauty throughout this unique archipelago.',
     },
 ];
 

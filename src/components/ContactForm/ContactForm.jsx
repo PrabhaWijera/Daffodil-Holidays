@@ -2,6 +2,7 @@ import "./ContactFormStyles.css";
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import bg from "../../assets/video/main.mp4";
+import {refresh} from "ionicons/icons";
 
 function ContactForm() {
     const [name, setName] = useState('');
@@ -30,6 +31,7 @@ function ContactForm() {
                 () => {
                     alert("Sent..")
                     console.log("Email sent successfully!");
+
 
                 },
                 (error) => {

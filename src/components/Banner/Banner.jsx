@@ -31,9 +31,7 @@ const Banner = () => {
                   data-aos="fade-up"
                   className="text-sm text-gray-500 tracking-wide leading-8"
                 >
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eaque reiciendis inventore iste ratione ex alias quis magni at
-                  optio ratione ex alias quis magni at optio
+                  Discover the world’s wonders with us—your gateway to unforgettable adventures and unique experiences. Explore diverse destinations, cultures, and landscapes with expert guides and local insights. Your journey begins here!
                   <br />
                 </p>
                 <div data-aos="zoom-in" className="grid grid-cols-2 gap-6">
