@@ -80,7 +80,7 @@ const About = () => {
                                 travel experience, offering unique and personalized itineraries.
                             </p>
                             <a
-                                href="/book-now"
+                                href="/booking"
                                 className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors"
                             >
                                 Book Now
