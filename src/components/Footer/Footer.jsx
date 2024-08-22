@@ -31,6 +31,24 @@ const FooterLinks = [
     title: "Contact"
   }
 ];
+const CustomerService=[
+  {
+    title:"Contact us",
+    link:"/Contact"
+  },
+  {
+    title: "Online Bookings",
+    link: "/booking"
+  },
+  {
+    title:"Travel Guide",
+    link: "/best-places"
+  },
+  {
+    title: "Itinerary",
+    link: "/best-places"
+  }
+]
 
 const Footer = () => {
   return (
@@ -105,7 +123,7 @@ const Footer = () => {
                     Customer Service
                   </h1>
                   <ul className="flex flex-col gap-3">
-                    {FooterLinks.map((link) => (
+                    {CustomerService.map((link) => (
                       <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-gray-200">
                         <Link
                           to={link.link}

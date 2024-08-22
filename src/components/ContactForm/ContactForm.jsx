@@ -11,6 +11,8 @@ function ContactForm() {
     const [subject, setSubject] = useState(''); // Corrected the state name to lowercase
     const [message, setMessage] = useState(''); // Corrected the state name
 
+
+
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -74,6 +76,7 @@ function ContactForm() {
                         type="submit"
                         className="btn bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full">
                         Send Message
+
                     </button> {/* Removed unnecessary <a> tag */}
                 </form>
             </div>
