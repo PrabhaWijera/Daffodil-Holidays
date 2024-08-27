@@ -65,12 +65,12 @@ function ContactForm() {
                     {/*<label>Email</label>*/}
                     <input placeholder="Enter your E-mail :" type="email" onChange={(e) => setEmail(e.target.value)} value={email} />
 
-                    <input placeholder="Enter your contact Number" type="number" onChange={(e)=>setMobile(e.target.value)}value={mobile}/>
+                    <input placeholder="Enter your contact Number :" type="number" onChange={(e)=>setMobile(e.target.value)}value={mobile}/>
                     {/*<label>Subject</label>*/}
-                    <input placeholder="Subject" type="text" onChange={(e) => setSubject(e.target.value)} value={subject} /> {/* Fixed input type */}
+                    <input placeholder="Subject :" type="text" onChange={(e) => setSubject(e.target.value)} value={subject} /> {/* Fixed input type */}
 
                     {/*<label>Message</label>*/}
-                    <textarea placeholder="Type your Message here" cols="30" rows="2" value={message} onChange={(e) => setMessage(e.target.value)} />
+                    <textarea placeholder="Type your Message here..." cols="30" rows="2" value={message} onChange={(e) => setMessage(e.target.value)} />
 
                     <button
                         type="submit"

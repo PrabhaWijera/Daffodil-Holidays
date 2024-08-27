@@ -1,10 +1,10 @@
 import Img1 from "../assets/places/Anuradhapura.jpg";
 import Img2 from "../assets/places/Polonnaruwa.jpg";
 import Img3 from "../assets/places/Sigiriya.jpg";
-import Img4 from "../assets/places/Kandy.jpg";
+import Img4 from "../assets/places/selected images for daffodil/kingdom4 copy.jpg";
 import Img5 from "../assets/places/Eliya.jpg";
 import Img6 from "../assets/places/Ella.jpg";
-import Img7 from "../assets/places/Negombo.jpg";
+import Img7 from "../assets/places/selected images for daffodil/fishing copy.jpg";
 import Img8 from "../assets/places/Colombo.jpg";
 import Img9 from "../assets/places/Kalpitiya.jpg";
 import Img10 from "../assets/places/Galle.jpg";

@@ -28,7 +28,8 @@ const FooterLinks = [
     link: "/best-places",
   },
   {
-    title: "Contact"
+    title: "Contact",
+    link: "/contact"
   }
 ];
 const CustomerService=[

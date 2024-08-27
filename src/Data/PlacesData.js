@@ -135,7 +135,8 @@ const placesData = [
         img: pas1, // Replace with actual image URL
         longitude: 81.6974,
         latitude: 7.8593
-    }
+    },
+
 ];
 
 export default placesData;

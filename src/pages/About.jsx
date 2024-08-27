@@ -3,10 +3,10 @@ import React from "react";
 import BlogsComp from "../components/Blogs/BlogsComp";
 import Location from "../components/Location/Location";
 import TopImageContainer from "../components/ImgContainr/TopIMageContainer.jsx";
-import img1 from "../assets/places/Galle.jpg";
-import img2 from "../assets/places/Pasikudah.jpg";
-import img3 from "../assets/places/Ella.jpg";
-import img4 from "../assets/places/Kandy.jpg";
+import img1 from "../assets/places/selected images for daffodil/fishing copy.jpg";
+import img2 from "../assets/places/selected images for daffodil/mirissa2 copy.jpg";
+import img3 from "../assets/places/selected images for daffodil/kandyhall copy.jpg";
+import img4 from "../assets/places/selected images for daffodil/uncleworking copy.jpg";
 import chooseUsImg from "../assets/Group 57.png"; // Replace with your image path
 
 const images = [img1, img2, img3, img4];
