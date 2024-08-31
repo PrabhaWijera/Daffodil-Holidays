@@ -28,19 +28,6 @@ const packages = [
         imgSrc: "./assets/images/packege-2.jpg",
         imgAlt: "Summer Holiday To The Oxolotan River",
     },
-    {
-        id: 3,
-        title: "Santorini Island's Weekend Vacation",
-        description: "Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.",
-        duration: "7D/6N",
-        pax: 10,
-        location: "Malaysia",
-        reviews: 40,
-        rating: 5,
-        price: 660,
-        imgSrc: "./assets/images/packege-3.jpg",
-        imgAlt: "Santorini Island's Weekend Vacation",
-    },
 ];
 
 const ExclusivePackages = () => {
