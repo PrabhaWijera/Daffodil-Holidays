@@ -7,9 +7,9 @@ import BannerPic from "../components/BannerPic/BannerPic";
 import BannerImg from "../assets/cover-women.jpg";
 import Banner2 from "../assets/travel-cover2.jpg";
 import OrderPopup from "../components/OrderPopup/OrderPopup";
-import homeBg from '../assets/img.png'
-import home from '../assets/fishing.jpg'
+
 import BlogsComp from "../components/Blogs/BlogsComp.jsx";
+import ImageCarousel from "../components/ImageCarousel/ImageCarousel.jsx";
 const Home = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
 
@@ -18,16 +18,7 @@ const Home = () => {
       <>
         <div>
           <div className="h-[700px] relative bg-cover">
-            {/*<video*/}
-            {/*    autoPlay*/}
-            {/*    loop*/}
-            {/*    muted*/}
-            {/*    className="absolute right-0 top-0 h-[700px] w-full object-cover z-[-1]"*/}
-            {/*>*/}
-            {/*  <source src={homeBg} type="video/mp4" />*/}
-            {/*</video>*/}
-            <img src={home} alt="" className="absolute right-0 top-0 h-[700px] w-full object-cover z-[-1]"/>
-            {/*/!*<Hero />*!/*/}
+            <ImageCarousel />
           </div>
           <Places/>
           <BannerPic img={BannerImg} />

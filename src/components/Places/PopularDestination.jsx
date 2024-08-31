@@ -9,22 +9,22 @@ const destinations = [
     {
         id: 1,
         image: './assets/images/popular-1.jpg',
-        country: 'Italy',
-        title: 'San Miguel',
+        country: 'SRI LANKA',
+        title: 'SRI   LANKA',
         description: 'Italy, renowned for its rich history, art, and cuisine, offers breathtaking landscapes from Rome’s ancient ruins to Tuscany’s rolling hills. Enjoy world-class wine, stunning architecture, and vibrant culture across the country.',
     },
     {
         id: 2,
         image: './assets/images/popular-2.jpg',
-        country: 'Dubai',
-        title: 'Burj Khalifa',
+        country: 'MALDIVES',
+        title: 'MALDIVES',
         description: 'Dubai, a dazzling city in the UAE, blends modern skyscrapers, luxury shopping, and rich culture. Explore iconic landmarks like the Burj Khalifa, pristine beaches, and vibrant nightlife in this global metropolis.',
     },
     {
         id: 3,
         image: './assets/images/popular-3.jpg',
-        country: 'Japan',
-        title: 'Kyoto Temple',
+        country: 'UAE',
+        title: 'UAE',
         description: 'Japan, a blend of ancient tradition and cutting-edge modernity, offers stunning temples, bustling cities, and serene landscapes. Experience vibrant culture, exquisite cuisine, and breathtaking natural beauty throughout this unique archipelago.',
     },
 ];
@@ -33,9 +33,10 @@ const PopularDestination = () => {
 
     const navigate = useNavigate();
 
-    const handleCardClick = (id) => {
-        navigate(`/package-details/`);
+    const handleCardClick = (country) => {
+        navigate(`/package-details/${country}`);
     };
+
     return (
         <section id="destination" className="py-12 bg-gray-50">
             <div className="container mx-auto px-4">
@@ -50,7 +51,7 @@ const PopularDestination = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
                     {destinations.map((destination) => (
-                        <div key={destination.id} className="bg-white shadow-md rounded-lg overflow-hidden" onClick={handleCardClick}>
+                        <div key={destination.id} className="bg-white shadow-md rounded-lg overflow-hidden"    onClick={() => handleCardClick(destination.country)}>
                             <div className="relative">
                                 <img
                                     src={destination.image}
@@ -67,11 +68,11 @@ const PopularDestination = () => {
                                         <IonIcon key={index} icon={star} className="text-yellow-500 w-4 h-4"/>
                                     ))}
                                 </div>
-                                <p className="text-sm text-gray-500">
-                                    <a href="#" className="hover:underline">
-                                        {destination.country}
-                                    </a>
-                                </p>
+                                {/*<p className="text-sm text-gray-500">*/}
+                                {/*    <a href="#" className="hover:underline">*/}
+                                {/*        {destination.country}*/}
+                                {/*    </a>*/}
+                                {/*</p>*/}
                                 <h3 className="text-xl font-semibold mt-2">
                                     <a href="#" className="hover:underline">
                                         {destination.title}
