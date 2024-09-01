@@ -4,10 +4,10 @@ import BlogsComp from "../components/Blogs/BlogsComp";
 import Location from "../components/Location/Location";
 import TopImageContainer from "../components/ImgContainr/TopIMageContainer.jsx";
 import img1 from "../assets/places/selected images for daffodil/fishing resized.webp";
-import img2 from "../assets/places/selected images for daffodil/mirissa2 resized.webp";
+import img2 from "../assets/edited eliphent/IMG-20240818-WA0032 copy.jpg";
 import img3 from "../assets/places/selected images for daffodil/kandyhall_resized.webp";
-import img4 from "../assets/places/selected images for daffodil/uncleworking_resized.webp";
-import chooseUsImg from "../assets/Group 57.png"; // Replace with your image path
+import img4 from "../assets/edited eliphent/resize/7.webp";
+import chooseUsImg from "../assets/edited eliphent/IMG-20240818-WA0034 copy.jpg"; // Replace with your image path
 
 const images = [img1, img2, img3, img4];
 
