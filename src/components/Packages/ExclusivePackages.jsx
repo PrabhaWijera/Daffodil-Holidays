@@ -1,5 +1,8 @@
 import React, {useState} from 'react';
 import {useNavigate, useParams} from 'react-router-dom';
+import gnsl from "../../assets/places/selected images for daffodil/greenNature.jpg"
+import epsl from "../../assets/places/selected images for daffodil/negambo.webp"
+
 
 const packages = [
     {
@@ -8,7 +11,7 @@ const packages = [
         locations: {
             'SRI LANKA': {
                 description: 'Discover the beauty of Sri Lanka...',
-                imgSrc: './assets/images/package-ceylon-srilanka.jpg',
+                imgSrc: epsl,
                 imgAlt: 'Explore Ceylon in Sri Lanka',
                 duration: '7 Days',
                 pax: '10',
@@ -38,7 +41,7 @@ const packages = [
         locations: {
             'SRI LANKA': {
                 description: 'Immerse yourself in the lush greenery of Sri Lanka...',
-                imgSrc: './assets/images/package-green-srilanka.jpg',
+                imgSrc: gnsl,
                 imgAlt: 'Green Nature in Sri Lanka',
                 duration: '8 Days',
                 pax: '12',
