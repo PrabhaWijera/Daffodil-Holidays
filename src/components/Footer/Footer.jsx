@@ -20,7 +20,7 @@ const FooterLinks = [
     link: "/about",
   },
   {
-    title: "Itinerary",
+    title: "Pakages",
     link: "/best-places",
   },
   {
