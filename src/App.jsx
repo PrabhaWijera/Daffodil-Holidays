@@ -37,10 +37,10 @@ const App = () => {
             <Route path="best-places/:id" element={<PlaceDetail />} />
             <Route path="package-details/:country" element={<PlacesRoute />} />
             <Route path="/itinery" element={<PopularDestination />} />
-            <Route path="/package-details/:country" element={<ExclusivePackages />} />
+            <Route path="/package" element={<ExclusivePackages />} />
             <Route path="contact" element={<ContactForm/>} />
-            <Route path="/package-details/:country" element={<TravelCustomerForm/>} />
-            <Route path="about" element={<About />} />
+            <Route path="/booking" element={<TravelCustomerForm/>} />
+            <Route path="/about" element={<About />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>

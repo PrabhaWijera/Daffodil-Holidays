@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 //images
-import img1 from "../../assets/places/Ella.jpg"
+import img1 from "../../assets/img copy-imageonline.co-merged.png"
 import img2 from "../../assets/places/Trincomalee.jpg"
 import img3 from "../../assets/places/Pasikudah.jpg"
 import img4 from "../../assets/places/Arugam Bay.jpg"

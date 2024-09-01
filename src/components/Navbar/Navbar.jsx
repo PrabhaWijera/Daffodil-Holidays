@@ -56,20 +56,20 @@ const Navbar = () => {
                 <NavLink to='/about' className="navLink">About Us</NavLink>
               </li>
               <li className="navItem">
-                <NavLink to='/best-places' className="navLink">Best Places</NavLink>
+                <NavLink to='/Best-places' className="navLink">Best Places</NavLink>
               </li>
               <li className="navItem">
                 <NavLink to='/itinery' className="navLink">Pakages</NavLink>
               </li>
               <li className="navItem">
-                <NavLink to='guide' className="navLink">Travel Guide</NavLink>
+                <NavLink to='/blogs' className="navLink">Travel Guide</NavLink>
               </li>
               <li className="navItem">
                 <NavLink to='/contact' className="navLink">Contact</NavLink>
               </li>
               <button
                   className="btn bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full">
-                <a href="/booking">Book now!</a>
+                <a href="/order">Book now!</a>
               </button>
             </ul>
 

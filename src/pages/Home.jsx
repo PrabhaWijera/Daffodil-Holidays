@@ -17,7 +17,7 @@ const Home = () => {
   return (
       <>
         <div>
-          <div className="h-[700px] relative bg-cover">
+          <div className="h-[500px] relative bg-cover">
             <ImageCarousel />
           </div>
           <Places/>

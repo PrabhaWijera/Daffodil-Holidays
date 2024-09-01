@@ -25,7 +25,7 @@ const FooterLinks = [
   },
   {
     title: "Travel Guide",
-    link: "/best-places",
+    link: "/blogs",
   },
   {
     title: "Contact",
@@ -43,7 +43,7 @@ const CustomerService=[
   },
   {
     title:"Travel Guide",
-    link: "/best-places"
+    link: "/blogs"
   },
   {
     title: "Itinerary",
@@ -54,10 +54,6 @@ const importantlinks=[
   {
     title:"Sri Lanka",
     link:"/best-places"
-  },
-  {
-    title: "India",
-    link: "/"
   },
   {
     title: "Maldives",
