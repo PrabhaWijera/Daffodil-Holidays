@@ -16,6 +16,7 @@ const ImageCarousel = () => {
         dots: true,
         infinite: true,
         speed: 500,
+        backgroundSize:"cover",
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
@@ -37,7 +38,7 @@ const ImageCarousel = () => {
                     <img
                         src={image}
                         alt={`Slide ${index + 1}`}
-                        className="w-full h-[700px] object-cover"
+                        className="w-full h-[500px] object-cover"
                     />
                 </div>
             ))}

@@ -191,9 +191,12 @@ const TravelCustomerForm = () => {
                                     required
                                 >
                                     <option value="">Select package</option>
-                                    <option value="Standard">Standard</option>
-                                    <option value="Premium">Premium</option>
-                                    <option value="Luxury">Luxury</option>
+                                    <option value="Standard">Sri lanka Explore Ceylon</option>
+                                    <option value="Standard">Sri lanka Green Nature</option>
+                                    <option value="Premium">Moldeves Explore Ceylon</option>
+                                    <option value="Premium">Moldeves Green Nature</option>
+                                    <option value="Luxury">UAE Explore Ceylon</option>
+                                    <option value="Luxury">UAE Green Nature</option>
                                 </select>
                             </div>
                         </div>

@@ -59,7 +59,7 @@ const Navbar = () => {
                 <NavLink to='/best-places' className="navLink">Best Places</NavLink>
               </li>
               <li className="navItem">
-                <NavLink to='/itinery' className="navLink">Itinerary</NavLink>
+                <NavLink to='/itinery' className="navLink">Pakages</NavLink>
               </li>
               <li className="navItem">
                 <NavLink to='guide' className="navLink">Travel Guide</NavLink>
