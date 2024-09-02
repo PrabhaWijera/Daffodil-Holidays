@@ -10,7 +10,7 @@ import Img9 from "../assets/places/Kalpitiya.jpg";
 import Img10 from "../assets/places/selected images for daffodil/galle_resized.webp";
 import Img11 from "../assets/places/selected images for daffodil/mirissa resized.webp";
 import Img12 from "../assets/places/Tangalle.jpg";
-import Img13 from "../assets/places/Trincomalee.jpg";
+import Img13 from "../assets/places/selected images for daffodil/trincomalee copy.webp";
 import Img14 from "../assets/places/Arugam Bay.jpg";
 import Img15 from "../assets/places/Pasikudah.jpg";
 
