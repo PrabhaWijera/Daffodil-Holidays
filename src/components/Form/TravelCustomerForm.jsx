@@ -134,7 +134,6 @@ const TravelCustomerForm = () => {
                                     className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                                     required
                                 >
-                                    <option value="">Select age</option>
                                     <option value="18-25">18-25</option>
                                     <option value="26-35">26-35</option>
                                     <option value="36-45">36-45</option>
@@ -190,7 +189,6 @@ const TravelCustomerForm = () => {
                                     className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                                     required
                                 >
-                                    <option value="">Select package</option>
                                     <option value="Standard">Sri lanka Explore Ceylon</option>
                                     <option value="Standard">Sri lanka Green Nature</option>
                                     <option value="Premium">Moldeves Explore Ceylon</option>
