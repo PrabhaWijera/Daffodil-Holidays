@@ -1,6 +1,6 @@
 // PlacesData.js
 import p1 from "../assets/places/polonnaruwa1.jpg"
-import c1 from "../assets/places/indepenceOfColombo.jpg"
+import c1 from "../assets/colombo/IMG_0981 copy.webp"
 import anuradapuraHeritage from "../assets/edited eliphent/resize/8.webp"
 import s1 from"../assets/edited eliphent/resize/5.webp"
 import k1 from "../assets/places/selected images for daffodil/kandyhall_resized.webp"

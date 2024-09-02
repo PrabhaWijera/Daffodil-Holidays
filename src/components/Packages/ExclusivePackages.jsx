@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {useNavigate, useParams} from 'react-router-dom';
 import gnsl from "../../assets/places/selected images for daffodil/greenNature.jpg"
-import epsl from "../../assets/places/selected images for daffodil/negambo.webp"
+import epsl from "../../assets/colombo/IMG_0979 copy.webp"
 
 
 const packages = [
