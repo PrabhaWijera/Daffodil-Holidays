@@ -1,10 +1,11 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from "react";
+import React, {useContext, useState} from "react";
 import './navbar.css'
+
 
 import {IoIosCloseCircle} from "react-icons/io";
 import {TbGridDots} from "react-icons/tb";
-import {NavLink} from "react-router-dom";
+import {NavLink, useNavigate} from "react-router-dom";
 import bg from "../../assets/WhatsApp_Image_2024-08-13_at_14.07.06_0e7351fa_1-removebg-preview.png"
 export const NavbarLinks = [
   {
@@ -28,7 +29,11 @@ export const NavbarLinks = [
 ];
 
 
-const Navbar = () => {
+// eslint-disable-next-line react/prop-types
+const Navbar = ({setIsActive}) => {
+
+  const navigate = useNavigate();
+
   const[active, setActive]=useState('navBar')
 
   const showNav = () =>{
@@ -37,6 +42,13 @@ const Navbar = () => {
   const hideNav = () =>{
     setActive('navBar')
   }
+
+
+
+  const handleClick = () => {
+    setIsActive(true);
+    navigate('/contact');
+  };
   return(
       <section className="navbarSection pb-[5rem]">
         <header className="header flex">
@@ -64,8 +76,8 @@ const Navbar = () => {
               <li className="navItem">
                 <NavLink to='/blogs' className="navLink">Travel Guide</NavLink>
               </li>
-              <li className="navItem">
-                <NavLink to='/contact' className="navLink">Contact</NavLink>
+              <li className="navItem" >
+                <NavLink onClick={handleClick} className="navLink" >Contact</NavLink>
               </li>
               <button
                   className="btn bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full">

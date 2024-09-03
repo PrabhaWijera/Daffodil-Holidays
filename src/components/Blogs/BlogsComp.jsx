@@ -1,6 +1,6 @@
 import React from "react";
 import BlogCard from "./BlogCard";
-import Img1 from "../../assets/places/tajmahal.jpg";
+import Img1 from "../../assets/colombo/IMG_0979 copy.webp";
 import Img2 from "../../assets/places/water.jpg";
 import Img3 from "../../assets/places/boat.jpg";
 
@@ -8,27 +8,27 @@ const BlogsData = [
   {
     id: 1,
     image: Img1,
-    title: "Top places to visit in India",
+    title: "Top places to visit in Sri lanka",
     description:
-   " Top places in India: Taj Mahal, Jaipur, Kerala, Goa, Varanasi, Udaipur, Ladakh, Rishikesh, and Hampi.",
+   " Top places in Sri Lanka: Sigiriya, Ella, Kandy, Galle, Yala National Park, Nuwara Eliya.",
     author: "Someone",
     date: "April 22, 2022",
   },
   {
     id: 1,
     image: Img2,
-    title: "Top places to visit in US",
+    title: "Top places to visit in Moldeves",
     description:
-      "Top places in the US: New York, Grand Canyon, Yellowstone, Las Vegas, Hawaii, San Francisco, and Orlando.",
+      "Top places in the US: Malé, Maafushi, Hulhumalé, Baa Atoll, Sun Island, Addu City.",
     author: "Someone",
     date: "April 22, 2022",
   },
   {
     id: 1,
     image: Img3,
-    title: "Top places to visit in Japan",
+    title: "Top places to visit in UAE",
     description:
-      "Top places in Japan: Tokyo, Kyoto, Mount Fuji, Osaka, Hiroshima, Nara, Hokkaido, Okinawa, and Nikko.",
+      "Top places in the UAE: Burj Khalifa, Sheikh Zayed Mosque, Palm Jumeirah, Dubai Mall, Louvre Abu Dhabi..",
     author: "Someone",
     date: "April 22, 2022",
   },

@@ -1,17 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
-
-import Modal from './contactModel.jsx'
+import Modal from './contactModel.jsx';
 import './ContactFormStyles.css';
 
+// eslint-disable-next-line react/prop-types
 function ContactForm({ isActive }) {
-    // const {} = useContext(NavLinkContext);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [mobile, setMobile] = useState('');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
+
+    useEffect(() => {
+        if (isActive) {
+            setIsModalOpen(true);
+        }
+    }, [isActive]);
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -31,24 +36,17 @@ function ContactForm({ isActive }) {
 
         emailjs.send(serviceID, templateID, templateParams, publicKey)
             .then(() => {
-                alert("Sent..")
+                alert("Sent..");
                 console.log("Email sent successfully!");
                 setIsModalOpen(false);
             }, (error) => {
-                alert("Something went wrong. Check your connection and try again")
+                alert("Something went wrong. Check your connection and try again");
                 console.error('Failed to send email:', error.text);
             });
     };
 
     return (
         <div>
-            {/*<button*/}
-            {/*    className="open-modal-btn bg-gradient-to-r from-primary to-secondary text-white px-4 py-2 rounded-full"*/}
-            {/*    onClick={() => setIsModalOpen(true)}*/}
-            {/*>*/}
-            {/*    Contact Us*/}
-            {/*</button>*/}
-
             <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
                 <form onSubmit={sendEmail} className="ContactForm">
                     <input

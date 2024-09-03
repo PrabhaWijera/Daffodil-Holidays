@@ -1,19 +1,19 @@
 // PlacesData.js
-import p1 from "../assets/places/polonnaruwa1.jpg"
+import p1 from "../assets/places/polonnaruwa1.jpg"      //need pic
 import c1 from "../assets/colombo/IMG_0981 copy.webp"
-import anuradapuraHeritage from "../assets/edited eliphent/resize/8.webp"
-import s1 from"../assets/edited eliphent/resize/5.webp"
+import anuradapuraHeritage from "../assets/places/selected images for daffodil/anuradaoura1.webp"
+import s1 from"../assets/edited eliphent/resize/5.webp"     //need pic
 import k1 from "../assets/places/selected images for daffodil/kandyhall_resized.webp"
 import n1 from "../assets/places/selected images for daffodil/NewZealandFarm.webp"
-import e1 from "../assets/places/ellaHeri.jpg"
+import e1 from "../assets/places/ellaHeri.jpg"      //need pic
 import ne1 from "../assets/places/selected images for daffodil/negambo.webp"
-import ka1 from "../assets/places/kalpitiyaHeri.jpg"
+import ka1 from "../assets/places/kalpitiyaHeri.jpg"        //need pic
 import m1 from "../assets/places/selected images for daffodil/mirissa2 resized.webp"
-import t1 from "../assets/places/tangalleheri.jpg"
-import g1 from "../assets/places/galleHeri.jpeg"
-import tr1 from "../assets/places/trinkoHeri.jpg"
-import ar1 from "../assets/places/arugambayHeri.webp"
-import  pas1 from "../assets/places/pasikudaHeri.jpeg"
+import t1 from "../assets/places/tangalleheri.jpg"      //need pic
+import g1 from "../assets/places/galleHeri.jpeg"        //need pic
+import tr1 from "../assets/places/trinkoHeri.jpg"           //need pic
+import ar1 from "../assets/places/arugambayHeri.webp"       //need pic
+import  pas1 from "../assets/places/pasikudaHeri.jpeg"          //need pic
 
 const placesData = [
     {

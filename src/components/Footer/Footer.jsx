@@ -53,15 +53,15 @@ const CustomerService=[
 const importantlinks=[
   {
     title:"Sri Lanka",
-    link:"/best-places"
+    link:"/itinery"
   },
   {
     title: "Maldives",
-    link: "/"
+    link: "/itinery"
   },
   {
     title: "UAE",
-    link: "/"
+    link: "/itinery"
   }
 ]
 

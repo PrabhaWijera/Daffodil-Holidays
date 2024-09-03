@@ -1,18 +1,18 @@
-import Img1 from "../assets/places/Anuradhapura.jpg";
-import Img2 from "../assets/places/Polonnaruwa.jpg";
-import Img3 from "../assets/places/Sigiriya.jpg";
+import Img1 from "../assets/places/polonnaruwa1.jpg";   //need pic
+import Img2 from "../assets/places/selected images for daffodil/anuradapura2.webp";
+import Img3 from "../assets/places/selected images for daffodil/seegiriya.webp";
 import Img4 from "../assets/places/selected images for daffodil/kingdom4 resized.webp";
 import Img5 from "../assets/places/selected images for daffodil/greenNature.jpg";
-import Img6 from "../assets/colombo/IMG_0686 copy.webp";
+import Img6 from "../assets/places/selected images for daffodil/9arch.webp";
 import Img7 from "../assets/places/selected images for daffodil/fishing resized.webp";
 import Img8 from "../assets/colombo/IMG_0979 copy.webp";
-import Img9 from "../assets/places/Kalpitiya.jpg";
+import Img9 from "../assets/places/Kalpitiya.jpg";   //need pic
 import Img10 from "../assets/places/selected images for daffodil/galle_resized.webp";
 import Img11 from "../assets/places/selected images for daffodil/mirissa resized.webp";
-import Img12 from "../assets/places/Tangalle.jpg";
+import Img12 from "../assets/places/Tangalle.jpg";  //need pic
 import Img13 from "../assets/places/selected images for daffodil/trincomalee copy.webp";
-import Img14 from "../assets/places/Arugam Bay.jpg";
-import Img15 from "../assets/places/Pasikudah.jpg";
+import Img14 from "../assets/places/Arugam Bay.jpg";   //need pic
+import Img15 from "../assets/places/Pasikudah.jpg";    //need pic
 
 const data = {
   AncientCities: [
