@@ -1,0 +1,49 @@
+:root {
+    --text-color: #fff;
+    --bg-color: #000;
+    --main-color: #ffa343;
+    --main-nav-color: #DD6348;
+
+    --h1-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1rem;
+}
+
+.feature-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+.row-img {
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.row-img img {
+    width: 100%;
+    display: block;
+    transition: transform 0.7s;
+}
+
+.row-img img:hover {
+    transform: scale(1.2);
+}
+
+.feature-content h4 {
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .50s ease;
+}
+
+.feature-content h4:hover {
+    color: var(--main-color);
+}
