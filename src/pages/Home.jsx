@@ -10,6 +10,7 @@ import OrderPopup from "../components/OrderPopup/OrderPopup";
 
 import BlogsComp from "../components/Blogs/BlogsComp.jsx";
 import ImageCarousel from "../components/ImageCarousel/ImageCarousel.jsx";
+import HomeAbout from "../components/HomeAbout/HomeAbout.jsx";
 const Home = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
 
@@ -20,12 +21,13 @@ const Home = () => {
           <div className="h-[500px] relative bg-cover">
             <ImageCarousel />
           </div>
-          <Places/>
+
+          {/*<Places/>*/}
           <BannerPic img={BannerImg} />
           <BlogsComp />
           <Banner />
           <BannerPic img={Banner2} />
-          <Testimonial />
+          {/*<Testimonial />*/}
           <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
         </div>
       </>
