@@ -1,7 +1,6 @@
 import React from "react";
 
-import Places from "../components/Places/Places";
-import Testimonial from "../components/Testimonial/Testimonial";
+
 import Banner from "../components/Banner/Banner";
 import BannerPic from "../components/BannerPic/BannerPic";
 import BannerImg from "../assets/cover-women.jpg";
@@ -10,7 +9,12 @@ import OrderPopup from "../components/OrderPopup/OrderPopup";
 
 import BlogsComp from "../components/Blogs/BlogsComp.jsx";
 import ImageCarousel from "../components/ImageCarousel/ImageCarousel.jsx";
- 
+
+
+import HeroPlaces from "../components/Places/HeroPlaces.jsx";
+
+
+
 const Home = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
 
@@ -22,12 +26,13 @@ const Home = () => {
             <ImageCarousel />
           </div>
 
-          {/*<Places/>*/}
+          <HeroPlaces/>
           <BannerPic img={BannerImg} />
           <BlogsComp />
           <Banner />
           <BannerPic img={Banner2} />
           {/*<Testimonial />*/}
+
           <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
         </div>
       </>
