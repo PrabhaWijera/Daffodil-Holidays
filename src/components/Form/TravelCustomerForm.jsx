@@ -189,17 +189,17 @@ const TravelCustomerForm = () => {
                                     className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                                     required
                                 >
-                                    <option value="Standard">Sri lanka Explore Ceylon</option>
-                                    <option value="Standard">Sri lanka Green Nature</option>
-                                    <option value="Premium">Moldeves Explore Ceylon</option>
-                                    <option value="Premium">Moldeves Green Nature</option>
-                                    <option value="Luxury">UAE Explore Ceylon</option>
-                                    <option value="Luxury">UAE Green Nature</option>
+                                    <option value="Sri lanka Explore Ceylon">Sri lanka Explore Ceylon</option>
+                                    <option value="Sri lanka Green Nature">Sri lanka Green Nature</option>
+                                    <option value="Moldeves Explore Ceylon">Moldeves Explore Ceylon</option>
+                                    <option value="Moldeves Green Nature">Moldeves Green Nature</option>
+                                    <option value="UAE Explore Ceylon">UAE Explore Ceylon</option>
+                                    <option value="UAE Green Nature">UAE Green Nature</option>
                                 </select>
                             </div>
                         </div>
                         <button
-                            type="submit"
+                            type={"submit"}
                             className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                         >
                             Conform Your Booking
