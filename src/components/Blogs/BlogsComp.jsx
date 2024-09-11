@@ -2,7 +2,7 @@ import React from "react";
 import BlogCard from "./BlogCard";
 import Img1 from "../../assets/colombo/IMG_0979 copy.webp";
 import Img2 from "../../assets/places/water.jpg";
-import Img3 from "../../assets/places/boat.jpg";
+import Img3 from "../../assets/pakages/UAE.webp";
 
 const BlogsData = [
   {

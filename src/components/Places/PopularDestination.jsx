@@ -5,10 +5,12 @@ import { IonIcon } from '@ionic/react';
 import { star } from 'ionicons/icons';
 import TourExperience from "../LikeComponent/TourExperience.jsx";
 import { useNavigate } from 'react-router-dom';
+import sl from "../../assets/colombo/IMG_0979 copy.webp"
+import uae from "../../assets/pakages/UAE.webp"
 const destinations = [
     {
         id: 1,
-        image: './assets/images/popular-1.jpg',
+        image: sl,
         country: 'SRI LANKA',
         title: 'SRI   LANKA',
         description: 'Italy, renowned for its rich history, art, and cuisine, offers breathtaking landscapes from Rome’s ancient ruins to Tuscany’s rolling hills. Enjoy world-class wine, stunning architecture, and vibrant culture across the country.',
@@ -22,7 +24,7 @@ const destinations = [
     },
     {
         id: 3,
-        image: './assets/images/popular-3.jpg',
+        image: uae,
         country: 'UAE',
         title: 'UAE',
         description: 'Japan, a blend of ancient tradition and cutting-edge modernity, offers stunning temples, bustling cities, and serene landscapes. Experience vibrant culture, exquisite cuisine, and breathtaking natural beauty throughout this unique archipelago.',

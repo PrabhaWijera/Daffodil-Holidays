@@ -27,7 +27,7 @@ const packages = [
             },
             'UAE': {
                 description: 'Explore the wonders of UAE...',
-                imgSrc: './assets/images/package-ceylon-uae.jpg',
+                imgSrc: '',
                 imgAlt: 'Explore Ceylon in UAE',
                 duration: '6 Days',
                 pax: '12',

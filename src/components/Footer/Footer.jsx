@@ -39,7 +39,7 @@ const CustomerService=[
   },
   {
     title: "Online Bookings",
-    link: "/booking"
+    link: "/package-details/:country"
   },
   {
     title:"Travel Guide",
@@ -53,15 +53,15 @@ const CustomerService=[
 const importantlinks=[
   {
     title:"Sri Lanka",
-    link:"/itinery"
+    link:"/package-details/:country"
   },
   {
     title: "Maldives",
-    link: "/itinery"
+    link: "/package-details/:country"
   },
   {
     title: "UAE",
-    link: "/itinery"
+    link: "/package-details/:country"
   }
 ]
 
