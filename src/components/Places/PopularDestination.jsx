@@ -5,8 +5,9 @@ import { IonIcon } from '@ionic/react';
 import { star } from 'ionicons/icons';
 import TourExperience from "../LikeComponent/TourExperience.jsx";
 import { useNavigate } from 'react-router-dom';
-import sl from "../../assets/colombo/IMG_0979 copy.webp"
+import sl from "../../assets/pakages/sl flag.webp"
 import uae from "../../assets/pakages/UAE.webp"
+import moldeves from "../../assets/pakages/flag-of-maldives (1).webp"
 const destinations = [
     {
         id: 1,
@@ -17,7 +18,7 @@ const destinations = [
     },
     {
         id: 2,
-        image: './assets/images/popular-2.jpg',
+        image: moldeves,
         country: 'MALDIVES',
         title: 'MALDIVES',
         description: 'Dubai, a dazzling city in the UAE, blends modern skyscrapers, luxury shopping, and rich culture. Explore iconic landmarks like the Burj Khalifa, pristine beaches, and vibrant nightlife in this global metropolis.',
