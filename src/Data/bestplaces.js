@@ -1,6 +1,6 @@
 import Img1 from "../assets/places/Anuradhapura.jpg";
-import Img2 from "../assets/places/Polonnaruwa.jpg";
-import Img3 from "../assets/places/Sigiriya.jpg";
+import Img2 from "../assets/places/selected images for daffodil/anuradapura2.webp";
+import Img3 from "../assets/places/selected images for daffodil/seegiriya.webp";
 import Img4 from "../assets/places/selected images for daffodil/kingdom4 resized.webp";
 import Img5 from "../assets/places/selected images for daffodil/greenNature.jpg";
 import Img6 from "../assets/colombo/IMG_0686 copy.webp";
@@ -123,7 +123,7 @@ const bestplaces = {
             description: "Historic fishing village known for its stunning beaches and waves.."
         },
         {
-            id:'Pasikudah',
+            id:'Pasikuda',
             img: Img15,
             title: "Pasikudah",
             location: "Sri Lanka",
