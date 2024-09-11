@@ -2,6 +2,10 @@ import React, {useState} from 'react';
 import {useNavigate, useParams} from 'react-router-dom';
 import gnsl from "../../assets/places/selected images for daffodil/greenNature.jpg"
 import epsl from "../../assets/colombo/IMG_0979 copy.webp"
+import uaegn from "../../assets/tempury images/uae green nature.png"
+import uaeep from "../../assets/tempury images/uae explore.jpeg"
+import mgn from "../../assets/tempury images/Maldives-green nature.jpg"
+import mep from "../../assets/tempury images/moldeves explore.jpeg"
 
 
 const packages = [
@@ -19,7 +23,7 @@ const packages = [
             },
             'MALDIVES': {
                 description: 'Experience the charm of the Maldives...',
-                imgSrc: './assets/images/package-ceylon-maldives.jpg',
+                imgSrc: mep,
                 imgAlt: 'Explore Ceylon in Maldives',
                 duration: '5 Days',
                 pax: '8',
@@ -27,7 +31,7 @@ const packages = [
             },
             'UAE': {
                 description: 'Explore the wonders of UAE...',
-                imgSrc: '',
+                imgSrc: uaeep,
                 imgAlt: 'Explore Ceylon in UAE',
                 duration: '6 Days',
                 pax: '12',
@@ -49,7 +53,7 @@ const packages = [
             },
             'MALDIVES': {
                 description: 'Experience the serene nature of the Maldives...',
-                imgSrc: './assets/images/package-green-maldives.jpg',
+                imgSrc: mgn,
                 imgAlt: 'Green Nature in Maldives',
                 duration: '6 Days',
                 pax: '6',
@@ -57,7 +61,7 @@ const packages = [
             },
             'UAE': {
                 description: 'Discover the vibrant nature spots of UAE...',
-                imgSrc: './assets/images/package-green-uae.jpg',
+                imgSrc: uaegn,
                 imgAlt: 'Green Nature in UAE',
                 duration: '7 Days',
                 pax: '10',

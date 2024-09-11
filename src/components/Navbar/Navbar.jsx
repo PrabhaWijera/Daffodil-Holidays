@@ -81,7 +81,7 @@ const Navbar = ({setIsActive}) => {
               </li>
               <button
                   className="btn bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full">
-                <a href="/booking">Book now!</a>
+                <a href="/package-details/:country">Book now!</a>
               </button>
             </ul>
 
