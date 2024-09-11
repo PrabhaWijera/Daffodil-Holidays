@@ -21,7 +21,7 @@ const FooterLinks = [
   },
   {
     title: "Pakages",
-    link: "/best-places",
+    link: "itinery",
   },
   {
     title: "Travel Guide",
@@ -53,15 +53,15 @@ const CustomerService=[
 const importantlinks=[
   {
     title:"Sri Lanka",
-    link:"/package-details/:country"
+    link:"/itinery"
   },
   {
     title: "Maldives",
-    link: "/package-details/:country"
+    link: "/itinery"
   },
   {
     title: "UAE",
-    link: "/package-details/:country"
+    link: "/itinery"
   }
 ]
 
