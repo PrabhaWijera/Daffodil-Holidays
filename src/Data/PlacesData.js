@@ -1,5 +1,5 @@
 // PlacesData.js
-import p1 from "../assets/places/polonnaruwa1.jpg"      //need pic
+import p1 from "../assets/places/poloonnaruwa2 copy.webp"      //need pic
 import c1 from "../assets/colombo/IMG_0981 copy.webp"
 import anuradapuraHeritage from "../assets/places/selected images for daffodil/anuradaoura1.webp"
 import s1 from"../assets/edited eliphent/resize/5.webp"     //need pic
@@ -11,7 +11,7 @@ import ka1 from "../assets/places/kalpitiyaHeri.jpg"        //need pic
 import m1 from "../assets/places/selected images for daffodil/mirissa2 resized.webp"
 import t1 from "../assets/places/tangalleheri.jpg"      //need pic
 import g1 from "../assets/places/galleHeri.jpeg"        //need pic
-import tr1 from "../assets/places/trinkoHeri.jpg"           //need pic
+import tr1 from "../assets/places/trinco22222 copy.webp"
 import ar1 from "../assets/places/arugambayHeri.webp"       //need pic
 import  pas1 from "../assets/places/pasikudaHeri.jpeg"          //need pic
 
