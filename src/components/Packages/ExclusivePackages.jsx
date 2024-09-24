@@ -4,8 +4,8 @@ import gnsl from "../../assets/places/selected images for daffodil/greenNature.j
 import epsl from "../../assets/colombo/IMG_0979 copy.webp"
 import uaegn from "../../assets/tempury images/uae green nature.png"
 import uaeep from "../../assets/tempury images/uae explore.jpeg"
-import mgn from "../../assets/tempury images/Maldives-green nature.jpg"
-import mep from "../../assets/tempury images/moldeves explore.jpeg"
+import mgn from "../../assets/pixabay/maldevesExplore.jpeg"
+import mep from "../../assets/pixabay/maldedevesgn.jpeg"
 
 
 const packages = [

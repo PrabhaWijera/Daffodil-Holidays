@@ -1,8 +1,8 @@
 import React from "react";
 import BlogCard from "./BlogCard";
 import Img1 from "../../assets/colombo/IMG_0979 copy.webp";
-import Img2 from "../../assets/places/water.jpg";
-import Img3 from "../../assets/pakages/UAE.webp";
+import Img2 from "../../assets/pixabay/MALDEVES.jpeg";
+import Img3 from "../../assets/pixabay/UAE.jpeg";
 
 const BlogsData = [
   {

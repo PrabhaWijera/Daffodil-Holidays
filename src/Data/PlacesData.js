@@ -2,10 +2,10 @@
 import p1 from "../assets/places/poloonnaruwa2 copy.webp"
 import c1 from "../assets/colombo/IMG_0981 copy.webp"
 import anuradapuraHeritage from "../assets/places/selected images for daffodil/anuradaoura1.webp"
-import s1 from"../assets/edited eliphent/resize/5.webp"     //need pic
+import s1 from"../assets/pixabay/segiriya.jpeg"     //need pic
 import k1 from "../assets/places/selected images for daffodil/kandyhall_resized.webp"
 import n1 from "../assets/places/selected images for daffodil/NewZealandFarm.webp"
-import e1 from "../assets/places/ellaHeri.jpg"      //need pic
+import e1 from "../assets/pixabay/elladron.jpeg"      //need pic
 import ne1 from "../assets/places/selected images for daffodil/negambo.webp"
 import ka1 from "../assets/places/kalpitiyaHeri.jpg"        //need pic
 import m1 from "../assets/places/selected images for daffodil/mirissa2 resized.webp"

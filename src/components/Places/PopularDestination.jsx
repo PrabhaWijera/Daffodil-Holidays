@@ -5,9 +5,9 @@ import { IonIcon } from '@ionic/react';
 import { star } from 'ionicons/icons';
 import TourExperience from "../LikeComponent/TourExperience.jsx";
 import { useNavigate } from 'react-router-dom';
-import sl from "../../assets/pakages/sl flag.webp"
-import uae from "../../assets/pakages/UAE.webp"
-import moldeves from "../../assets/pakages/flag-of-maldives (1).webp"
+import sl from "../../assets/pixabay/sri lanka.jpeg"
+import uae from "../../assets/pixabay/UAE.jpeg"
+import moldeves from "../../assets/pixabay/MALDEVES.jpeg"
 const destinations = [
     {
         id: 1,
