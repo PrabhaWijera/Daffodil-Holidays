@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {useNavigate, useParams} from 'react-router-dom';
 import gnsl from "../../assets/places/selected images for daffodil/greenNature.jpg"
 import epsl from "../../assets/colombo/IMG_0979 copy.webp"
-import uaegn from "../../assets/tempury images/uae green nature.png"
+import uaegn from "../../assets/pixabay/uaegreen.jpeg"
 import uaeep from "../../assets/pixabay/uaeExplore.jpeg"
 import mgn from "../../assets/pixabay/maldevesExplore.jpeg"
 import mep from "../../assets/pixabay/maldedevesgn.jpeg"
