@@ -7,7 +7,7 @@ import img1 from "../assets/places/selected images for daffodil/fishing resized.
 import img2 from "../assets/edited eliphent/IMG-20240818-WA0032 copy.jpg";
 import img3 from "../assets/places/selected images for daffodil/kandyhall_resized.webp";
 import img4 from "../assets/edited eliphent/resize/7.webp";
-import chooseUsImg from "../assets/edited eliphent/IMG-20240818-WA0034 copy.jpg"; // Replace with your image path
+import chooseUsImg from "../assets/pixabay/lotustower.jpg"; // Replace with your image path
 
 const images = [img1, img2, img3, img4];
 
