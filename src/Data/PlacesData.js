@@ -1,5 +1,5 @@
 // PlacesData.js
-import p1 from "../assets/places/poloonnaruwa2 copy.webp"
+import p1 from "../assets/places/polonnaruwaDesc copy.webp"
 import c1 from "../assets/colombo/IMG_0981 copy.webp"
 import anuradapuraHeritage from "../assets/places/selected images for daffodil/anuradaoura1.webp"
 import s1 from"../assets/pixabay/segiriya.jpeg"     //need pic

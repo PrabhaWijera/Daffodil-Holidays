@@ -1,4 +1,4 @@
-import Img1 from "../assets/places/polonnaruwaDesc copy.webp";
+import Img1 from "../assets/pixabay/polonnaruwa.jpeg";
 import Img2 from "../assets/places/selected images for daffodil/anuradapura2.webp";
 import Img3 from "../assets/places/selected images for daffodil/seegiriya.webp";
 import Img4 from "../assets/places/selected images for daffodil/kingdom4 resized.webp";
