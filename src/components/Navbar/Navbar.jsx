@@ -77,7 +77,7 @@ const Navbar = ({setIsActive}) => {
                 <NavLink to='/blogs' className="navLink">Travel Guide</NavLink>
               </li>
               <li className="navItem" >
-                <NavLink onClick={handleClick} className="navLink" >Contact</NavLink>
+                <NavLink to='/ContactForm' className="navLink" >Contact</NavLink>
               </li>
               <button
                   className="btn bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full">
