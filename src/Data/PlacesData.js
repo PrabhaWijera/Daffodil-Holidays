@@ -2,15 +2,15 @@
 import p1 from "../assets/places/polonnaruwaDesc copy.webp"
 import c1 from "../assets/colombo/IMG_0981 copy.webp"
 import anuradapuraHeritage from "../assets/places/selected images for daffodil/anuradaoura1.webp"
-import s1 from"../assets/pixabay/segiriya.jpeg"     //need pic
+import s1 from"../assets/pixabay/segiriya.jpeg"
 import k1 from "../assets/places/selected images for daffodil/kandyhall_resized.webp"
 import n1 from "../assets/places/selected images for daffodil/NewZealandFarm.webp"
-import e1 from "../assets/pixabay/elladron.jpeg"      //need pic
+import e1 from "../assets/pixabay/elladron.jpeg"
 import ne1 from "../assets/places/selected images for daffodil/negambo.webp"
 import ka1 from "../assets/places/kalpitiyaHeri.jpg"        //need pic
-import m1 from "../assets/places/selected images for daffodil/mirissa2 resized.webp"
+import m1 from "../assets/pixabay/mirissa.jpeg"
 import t1 from "../assets/pixabay/tangale.jpeg"
-import g1 from "../assets/places/galleHeri.jpeg"        //need pic
+import g1 from "../assets/pixabay/gallee.jpeg"        //need pic
 import tr1 from "../assets/places/trinco22222 copy.webp"
 import ar1 from "../assets/places/arugambayHeri.webp"       //need pic
 import  pas1 from "../assets/places/pasikudaHeri.jpeg"          //need pic
