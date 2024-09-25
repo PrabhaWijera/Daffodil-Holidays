@@ -5,9 +5,9 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 //images
-import img1 from "../../assets/img copy-imageonline.co-merged.png";
+import img1 from "../../assets/MasterLogo.png";
 import img2 from "../../assets/pixabay/welcome2.jpeg";
-import img3 from "../../assets/places/Pasikudah.jpg";
+import img3 from "../../assets/pixabay/lotustower.jpg";
 import img4 from "../../assets/places/Arugam Bay.jpg";
 import img5 from "../../assets/places/place5.jpg";
 
@@ -37,27 +37,23 @@ const ImageCarousel = () => {
                     Explore hidden gems and famous tourist spots that are perfect for relaxation
                     and adventure.
                 </p>
-                {/*<p className="text-lg">*/}
-                {/*    Whether you're looking to surf the waves at Arugam Bay or*/}
-                {/*    enjoy the peaceful shores of Pasikudah, we have a variety of options*/}
-                {/*    to make your trip unforgettable.*/}
-                {/*</p>*/}
             </div>
 
             {/* Right Section with Image Carousel */}
-            <div className="md:w-1/2 mb-10"> {/* Margin-bottom to move carousel down */}
+            <div className="md:w-1/2 mb-10 image-carousel"> {/* Add the custom class here */}
                 <Slider {...settings}>
                     {images.map((image, index) => (
                         <div key={index} className="relative flex justify-center items-center">
                             <img
                                 src={image}
                                 alt={`Slide ${index + 1}`}
-                                className="w-full h-[400px] md:h-[500px] object-cover rounded-full" // Circular images with background cover
+                                className="h-full w-[600px] md:h-[500px] object-cover rounded-full"
                             />
                         </div>
                     ))}
                 </Slider>
             </div>
+
         </div>
     );
 };
